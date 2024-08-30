@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Tabs</title>
+    <link rel="stylesheet" href="src/styles/style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="tab-buttons">
+            <button class="tab-btn" content-id="historia">
+                HISTÓRIA
+            </button>
+            <button class="tab-btn" content-id="esportes">
+                ESPORTES
+            </button>
+            <button class="tab-btn" content-id="shopping">
+                SHOPPING
+            </button>
+            <button class="tab-btn" content-id="geografia">
+                GEOGRAFIA
+            </button>
+            <button class="tab-btn" content-id="futebol">
+                FUTEBOL
+            </button>
+        </div>
+
+        <div class="tab-contents">
+            <div class="content show" id="historia">
+                <img src="src/images/campo-grande.jpg" class="content-img" alt="historia imagem">
+                <div class="infos">
+                    <h2 class="content-title">História do início</h2>
+                    <p class="content-description">Localizado na zona oeste do Rio de Janeiro, o bairro de Campo Grande é uma região vibrante e cheia de história que merece ser explorada. Com suas raízes profundamente ligadas a uma fazenda do século XIX, o bairro cresceu para se tornar uma comunidade diversificada e dinâmica, oferecendo aos moradores e visitantes uma rica tapeçaria cultural e uma série de experiências únicas.</p>
+                </div>
+            </div>
+
+        <div class="tab-contents">
+            <div class="content" id="esportes">
+                <img src="src/images/centro-esportivo.jpg" class="content-img" alt="esportes imagem">
+                <div class="infos">
+                    <h2 class="content-title">Miécimo da Silva</h2>
+                    <p class="content-description">Inaugurado em 1982, é o maior Centro Esportivo da América Latina, localizado no bairro de Campo Grande no Rio de Janeiro. É referência em eventos esportivos nacionais e internacionais desde 2003, quando sediou o Campeonato Sul-Americano de Vôlei.</p>
+                </div>
+            </div>
+
+            <div class="tab-contents">
+                <div class="content" id="shopping">
+                    <img src="src/images/parkshopping.jpg" class="content-img" alt="shopping image">
+                    <div class="infos">
+                        <h2 class="content-title">Shoppings</h2>
+                        <p class="content-description">Com sua grande variedade de comércio, campo grande conta com com 2 shoppings de grande porte sendo eles, <strong>West-shopping</strong> e <strong>Park-shopping</strong>, um de meio porte conhecido como <strong>Passeio shopping</strong> e outros de portes menores, mas, muito bem organizados e localizados com a mesma variedade comercial e atrativa que os outros.</p>
+                    </div>
+                </div>
+
+        <div class="tab-contents">
+            <div class="content" id="geografia">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58810.912908720595!2d-43.59374981403766!3d-22.88820056799065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be17999363715%3A0x46c3f27867ad9332!2sCampo%20Grande%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1716222065581!5m2!1spt-BR!2sbr" width="200" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="infos">
+                    <h2 class="content-title">Geografia</h2>
+                    <p class="content-description">O bairro de Campo Grande cobre uma área de 11.912,53 hectares ou 119,13 km² (119 km), sendo o segundo bairro mais extenso do município do Rio de Janeiro (atrás somente de Guaratiba com seus 139 km quadrados), onde residem 328.370 habitantes e mais de 120.049 domicílios, segundo o Censo 2010.  Com uma biodiversidade incrível que conta até mesmo com um vulcão inativo localizado no mendanha.</p>
+                </div>
+            </div>
+            
+        <div class="tab-contents">
+            <div class="content" id="futebol">
+                <img src="src/images/campo-grande-estadio.jpg" class="content-img" alt="futebol image">
+                <div class="infos">
+                    <h2 class="content-title">Estádio CGAC</h2>
+                    <p class="content-description">Campo grande tem seu próprio time e estádio. O <strong>Campo Grande Atlético Clube</strong> já disputou 580 jogos pela primeira divisão, obtendo 124 vitórias, 173 empates e 283 derrotas. Participou do Campeonato Brasileiro da Série A em 1979 e 1983. No cartel de jogos internacionais, apresenta mais de 20 jogos e três excursões. Em 1972 aos <strong>Estados Unidos</strong> em 1991 a <strong>Arábia Saudita</strong> e 1996 à <strong>Suíça</strong>.</p>
+                </div>
+            </div>            
+        </div>
+    </div>
+
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
